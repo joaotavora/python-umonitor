@@ -3700,7 +3700,7 @@ static char *__pyx_f_6screen_6Screen__get_output_name(CYTHON_UNUSED struct __pyx
  * 		return output_name
  */
   __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_v_output_name_length); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 194, __pyx_L1_error)
-  (__pyx_v_output_name[__pyx_t_5]) = '0';
+  (__pyx_v_output_name[__pyx_t_5]) = 0;
 
   /* "screen.pyx":195
  * 
@@ -4013,7 +4013,7 @@ static char *__pyx_f_6screen_6Screen__get_edid_name(struct __pyx_obj_6screen_Scr
  * 
  * 		# product = (edid[11] << 8) | edid[10];
  */
-  (__pyx_v_vendor[3]) = '0';
+  (__pyx_v_vendor[3]) = 0;
 
   /* "screen.pyx":240
  * 		# snprintf(edid_info, length, "%04X%04X%08X", vendor, product, serial);
